@@ -16,7 +16,7 @@ RUN bundle install
 COPY . /usr/src/app
 
 #RUN rake db:migrate
-ENV foo 2
+ENV foo 3
 ENV bar 31
 
 EXPOSE 3000
