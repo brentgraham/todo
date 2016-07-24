@@ -17,7 +17,7 @@ COPY . /usr/src/app
 
 #RUN rake db:migrate
 ENV foo 3
-ENV bar 31
+ENV bar 32
 
 EXPOSE 3000
 CMD ["rails", "server", "-b", "0.0.0.0"]
