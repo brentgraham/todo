@@ -7,6 +7,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '~> 4.2.0'
 
+gem 'rails_stdout_logging', group: :production
 gem 'ey_config'
 gem 'rails_autolink'
 gem 'simple_form'
